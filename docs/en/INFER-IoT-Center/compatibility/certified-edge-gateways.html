@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title></title>
+	<meta name="author" content="Manoj Rajshekar"/>
+	<meta name="created" content="2020-09-18T03:16:48"/>
+	<meta name="changedby" content="Manoj Rajshekar"/>
+	<meta name="changed" content="2020-09-19T23:56:37"/>
+	<meta name="DocSecurity" content="0"/>
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Calibri"}
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
+</head>
+
+<body>
+
+<!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->
+<h1>Edge Gateways for INFER IoT Center</h1>
+<table id="main-table" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td id="main-body">
+<p>INFER IoT Center is an end-to-end IoT infrastructure management solution that enables both OT and IT staff in organizations to have complete visibility and control of their IoT use cases including onboarding, configuring, monitoring, managing and securing the IoT Edge Systems (gateways) and connected devices.</p>
+<p>&nbsp;</p>
+<p><strong>Read Important Support Information below:</strong></p>
+<div>
+<p>The SmartHub INFER Compatibility Guide shows the certification status of partner gateways against releases of Pulse IoT Center for the following versions of INFER IoT Center 3.x and later.</p>
+</div>
+<div>
+<div><strong>Note:</strong><br />
+<div>
+<ul>
+<li>SmartHub provides support only for the certified partner gateways that are listed here.</li>
+<li>SmartHub INFER IoT Center is available as both SaaS and On-premise deployment. The compatibility guide below has been modified to include a prefix of SaaS or On-premise in the version number for all releases.</li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<div id="notes-iot">
+<ul>
+<li>BIOS Configuration Management functionality is supported for Dell Edge Gateway 3000 series with Ubuntu Server 18.04 LTS. [From 2.0.0, 2019.04 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Container Management functionality is supported for the following combinations of edge systems and OS:
+<ul>
+<li>Compulab Fitlet2 with Fedora 29 (IoT Edition) [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Dell Edge Gateway 3000 series with Ubuntu Server 18.04 LTS [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Dell Edge Gateway 5000 series with Fedora 29 (IoT Edition) and Photon 3.0 [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Dell Edge Gateway 3000 series with Photon OS 3.0 [From 2.0.0, 2019.11 SaaS and 2.0.1 On-premise onwards]</li>
+<li>Dell Edge Gateway 5000 series with Photon OS 3.0 [From 2.0.0, 2019.11 SaaS and 2.0.1 On-premise onwards]</li>
+</ul>
+</li>
+<li>TPM-Based Enrollment functionality is supported for the following combinations of edge systems and OS:
+<ul>
+<li>Compulab Fitlet2 with Fedora 29 (IoT Edition) [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Dell Edge Gateway 5000 series with Photon OS 3.0 [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+<li>Compulab Fitlet2 with Ubuntu Server 18.04 LTS (Bionic Beaver) [From 2.0.0, 2019.11 SaaS and 2.0.0 On-premise onwards]</li>
+</ul>
+</li>
+<li>Zero Touch Onboarding functionality is supported for Dell Edge Gateway 3000 series with Ubuntu Server 18.04 LTS. [From 2.0.0, 2019.11 SaaS and 2.0.1 On-premise onwards]</li>
+<li>The Photon OS 3.0 is certified with "Edge" installation</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<ul id="accordion">
+<li>
+<div id="Aaeon" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Aaeon"></a>Aaeon</div>
+<table class="partner_table" style="width: 844px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 146px;">OEM</th>
+<th style="width: 219px;">Series/SKU</th>
+<th style="width: 203px;">INFER IoT Center Version</th>
+<th style="width: 157px;">OS</th>
+<th style="width: 97px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 146px;">Aaeon</td>
+<td style="width: 219px;">UP-GW01</td>
+<td style="width: 203px;">3.0.0 On-premise</td>
+<td style="width: 157px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 97px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="ADLINK" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="ADLINK"></a>ADLINK</div>
+<table class="partner_table" style="width: 845px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 148px;">OEM</th>
+<th style="width: 222px;">Series/SKU</th>
+<th style="width: 209px;">INFER IoT Center Version</th>
+<th style="width: 158px;">OS</th>
+<th style="width: 86px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 148px;">ADLINK</td>
+<td style="width: 222px;">MXE 202i</td>
+<td style="width: 209px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 158px;">Debian Linux 9 (stretch)</td>
+<td style="width: 86px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 148px;">ADLINK</td>
+<td style="width: 222px;">MXE 202i</td>
+<td style="width: 209px;">3.0.0 On-premise</td>
+<td style="width: 158px;">Debian Linux 9 (stretch)</td>
+<td style="width: 86px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Advantech" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Advantech"></a>Advantech</div>
+<table class="partner_table" style="width: 847px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 148px;">OEM</th>
+<th style="width: 218px;">Series/SKU</th>
+<th style="width: 205px;">INFER IoT Center Version</th>
+<th style="width: 157px;">OS</th>
+<th style="width: 97px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 148px;">Advantech</td>
+<td style="width: 218px;">UNO-1372GH</td>
+<td style="width: 205px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 157px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 97px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 148px;">Advantech</td>
+<td style="width: 218px;">UNO-1372GH</td>
+<td style="width: 205px;">3.0.1 On-premise</td>
+<td style="width: 157px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 97px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Atmark Techno" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Atmark"></a>Atmark Techno</div>
+<table class="partner_table" style="width: 846px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 147px;">OEM</th>
+<th style="width: 217px;">Series/SKU</th>
+<th style="width: 202px;">INFER IoT Center Version</th>
+<th style="width: 172px;">OS</th>
+<th style="width: 86px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 147px;">Atmark Techno</td>
+<td style="width: 217px;">Armadillo-IoT Gateway G3 LTE L005</td>
+<td style="width: 202px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 172px;">Debian Linux 9 (stretch)</td>
+<td style="width: 86px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 147px;">Atmark Techno</td>
+<td style="width: 217px;">Armadillo-IoT Gateway G3 LTE L005</td>
+<td style="width: 202px;">3.0.0 On-premise</td>
+<td style="width: 172px;">Debian Linux 9 (stretch)</td>
+<td style="width: 86px;">armv7l</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Compulab" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Compulab"></a>Compulab</div>
+<table class="partner_table" style="width: 849px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 169px;">OEM</th>
+<th style="width: 229px;">Series/SKU</th>
+<th style="width: 236px;">INFER IoT Center Version</th>
+<th style="width: 185px;">OS</th>
+<th style="width: 85px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 169px;">Compulab</td>
+<td style="width: 229px;">Fitlet2</td>
+<td style="width: 236px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 185px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 85px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 169px;">Compulab</td>
+<td style="width: 229px;">Fitlet2</td>
+<td style="width: 236px;">3.0.0 On-premise</td>
+<td style="width: 185px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 85px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 169px;">Compulab</td>
+<td style="width: 229px;">Fitlet2</td>
+<td style="width: 236px;">3.0.0 On-premise</td>
+<td style="width: 185px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 85px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 169px;">Compulab</td>
+<td style="width: 229px;">Fitlet2</td>
+<td style="width: 236px;">3.0.1 On-premise</td>
+<td style="width: 185px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 85px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Dell" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Dell"></a>Dell</div>
+<table class="partner_table" style="width: 848px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 162px;">OEM</th>
+<th style="width: 206px;">Series/SKU</th>
+<th style="width: 213px;">INFER IoT Center Version</th>
+<th style="width: 175px;">OS</th>
+<th style="width: 70px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.x On-premise</td>
+<td style="width: 175px;">Ubuntu Core 16.04</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.x On-premise</td>
+<td style="width: 175px;">Ubuntu Core 16.04</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 175px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 175px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0 On-premise</td>
+<td style="width: 175px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0 On-premise</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0 On-premise</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0 On-premise</td>
+<td style="width: 175px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 175px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 175px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.1 On-premise</td>
+<td style="width: 175px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 3001/3002/3003</td>
+<td style="width: 213px;">3.0.1 On-premise</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.1 On-premise</td>
+<td style="width: 175px;">Photon OS 3.0</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.1 On-premise</td>
+<td style="width: 175px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 175px;">Windows 10 IoT Enterprise</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 162px;">Dell</td>
+<td style="width: 206px;">Edge Gateway 5000/5100</td>
+<td style="width: 213px;">3.0.1 On-premise</td>
+<td style="width: 175px;">Windows 10 IoT Enterprise</td>
+<td style="width: 70px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Eurotech" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Eurotech"></a>Eurotech</div>
+<table class="partner_table" style="width: 849px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 154px;">OEM</th>
+<th style="width: 205px;">Series/SKU</th>
+<th style="width: 203px;">INFER IoT Center Version</th>
+<th style="width: 167px;">OS</th>
+<th style="width: 98px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 154px;">Eurotech</td>
+<td style="width: 205px;">Reliagate 20-25</td>
+<td style="width: 203px;">3.0 On-premise</td>
+<td style="width: 167px;">Poky 2.3.3</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 154px;">Eurotech</td>
+<td style="width: 205px;">Reliagate 20-25</td>
+<td style="width: 203px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 167px;">Poky 2.3.3</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Harman" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Harman"></a>Harman</div>
+<table class="partner_table" style="width: 850px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 156px;">OEM</th>
+<th style="width: 205px;">Series/SKU</th>
+<th style="width: 204px;">INFER IoT Center Version</th>
+<th style="width: 167px;">OS</th>
+<th style="width: 96px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 156px;">Harman</td>
+<td style="width: 205px;">IoT Gateway03</td>
+<td style="width: 204px;">3.0 On-premise</td>
+<td style="width: 167px;">Linux imx6slevk 4.1.15-1.2.0</td>
+<td style="width: 96px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 156px;">Harman</td>
+<td style="width: 205px;">IoT Gateway03</td>
+<td style="width: 204px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 167px;">Poky 2.1.2</td>
+<td style="width: 96px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 156px;">Harman</td>
+<td style="width: 205px;">IoT Gateway03</td>
+<td style="width: 204px;">3.0.0 On-premise</td>
+<td style="width: 167px;">Poky 2.1.2</td>
+<td style="width: 96px;">armv7l</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="ITG" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="ITG"></a>ITG</div>
+<table class="partner_table" style="width: 850px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 154px;">OEM</th>
+<th style="width: 204px;">Series/SKU</th>
+<th style="width: 205px;">INFER IoT Center Version</th>
+<th style="width: 167px;">OS</th>
+<th style="width: 98px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 154px;">ITG</td>
+<td style="width: 204px;">SORBA-SDC</td>
+<td style="width: 205px;">3.0 On-premise</td>
+<td style="width: 167px;">Debian Linux 8 (jessie)</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 154px;">ITG</td>
+<td style="width: 204px;">SORBA-SDC</td>
+<td style="width: 205px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 167px;">Debian Linux 8 (jessie)</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Plat'Home" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Plat'Home"></a>Plat'Home</div>
+<table class="partner_table" style="width: 849px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 155px;">OEM</th>
+<th style="width: 202px;">Series/SKU</th>
+<th style="width: 207px;">INFER IoT Center Version</th>
+<th style="width: 165px;">OS</th>
+<th style="width: 98px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 155px;">Plat'Home</td>
+<td style="width: 202px;">OpenBlocks IoT VX2</td>
+<td style="width: 207px;">3.0 On-premise</td>
+<td style="width: 165px;">Debian Linux 9 (stretch)</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 155px;">Plat'Home</td>
+<td style="width: 202px;">OpenBlocks IoT VX2</td>
+<td style="width: 207px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 165px;">Debian Linux 9 (stretch)</td>
+<td style="width: 98px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="PLCnext" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="PLCnext"></a>PLCnext</div>
+<table class="partner_table" style="width: 850px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 154px;">OEM</th>
+<th style="width: 202px;">Series/SKU</th>
+<th style="width: 209px;">INFER IoT Center Version</th>
+<th style="width: 166px;">OS</th>
+<th style="width: 97px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 154px;">PLCnext</td>
+<td style="width: 202px;">AXC F 2152</td>
+<td style="width: 209px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 166px;">Phoenix Contact Linux (Yocto 2019.0.4)</td>
+<td style="width: 97px;">Armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">PLCnext</td>
+<td style="width: 202px;">AXC F 2152</td>
+<td style="width: 209px;">3.0.1 On-premise</td>
+<td style="width: 166px;">Phoenix Contact Linux (Yocto 2019.0.4)</td>
+<td style="width: 97px;">Armv7l</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Raspberry Pi" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Raspberry"></a>Raspberry Pi</div>
+<table class="partner_table" style="width: 852px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 154px;">OEM</th>
+<th style="width: 204px;">Series/SKU</th>
+<th style="width: 200px;">INFER IoT Center Version</th>
+<th style="width: 174px;">OS</th>
+<th style="width: 98px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">raspberrypi-3b</td>
+<td style="width: 200px;">3.1 On-premise</td>
+<td style="width: 174px;">Linux raspberrypi-2 4.9.41-v7+</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">2 Model B Rev 1.1</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B Rev 1.2</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 174px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 98px;">aarch64</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">2 Model B Rev 1.1</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B Rev 1.2</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 174px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 98px;">aarch64</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">2 Model B Rev 1.1</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B Rev 1.2</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 174px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 98px;">aarch64</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">2 Model B Rev 1.1</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B Rev 1.2</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 174px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 98px;">aarch64</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">2 Model B Rev 1.1</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B Rev 1.2</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 174px;">Raspbian Linux 9</td>
+<td style="width: 98px;">armv7l</td>
+</tr>
+<tr>
+<td style="width: 154px;">Raspberry Pi</td>
+<td style="width: 204px;">3 Model B</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 174px;">Ubuntu Server 18.04 LTS (Bionic Beaver)</td>
+<td style="width: 98px;">aarch64</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="VMware" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="VMware"></a>VMware</div>
+<table class="partner_table" style="width: 853px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 153px;">OEM</th>
+<th style="width: 206px;">Series/SKU</th>
+<th style="width: 200px;">INFER IoT Center Version</th>
+<th style="width: 173px;">OS</th>
+<th style="width: 99px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 173px;">CentOS Linux 7 (Core)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 173px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 173px;">Photon OS 3.0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 173px;">RHEL 7.2</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.04 SaaS</td>
+<td style="width: 173px;">SLES 12 SP0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 173px;">CentOS Linux 7 (Core)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 173px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 173px;">Photon OS 3.0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 173px;">RHEL 7.2</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.07 SaaS</td>
+<td style="width: 173px;">SLES 12 SP0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 173px;">CentOS Linux 7 (Core)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 173px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 173px;">Photon OS 3.0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 173px;">RHEL 7.2</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0 On-premise</td>
+<td style="width: 173px;">SLES 12 SP0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 173px;">CentOS Linux 7 (Core)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 173px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 173px;">Photon OS 3.0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 173px;">RHEL 7.2</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 173px;">SLES 12 SP0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 173px;">CentOS Linux 7 (Core)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 173px;">Fedora 29 (IoT Edition)</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 173px;">Photon OS 3.0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 173px;">RHEL 7.2</td>
+<td style="width: 99px;">x86</td>
+</tr>
+<tr>
+<td style="width: 153px;">VMware</td>
+<td style="width: 206px;">Virtual Machine</td>
+<td style="width: 200px;">3.0.1 On-premise</td>
+<td style="width: 173px;">SLES 12 SP0</td>
+<td style="width: 99px;">x86</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<div id="Wifx" class="titles"><img id="exp-icon" src="https://www.vmware.com/resources/compatibility/vcl/images/expand.png" /><a name="Wifx"></a>Wifx</div>
+<table class="partner_table" style="width: 854px;" border="1" cellspacing="0"><caption>&nbsp;</caption>
+<tbody>
+<tr>
+<th style="width: 153px;">OEM</th>
+<th style="width: 205px;">Series/SKU</th>
+<th style="width: 198px;">INFER IoT Center Version</th>
+<th style="width: 174px;">OS</th>
+<th style="width: 102px;">Architecture</th>
+</tr>
+<tr>
+<td style="width: 153px;">Wifx</td>
+<td style="width: 205px;">LORIX One</td>
+<td style="width: 198px;">3.0.0, 2019.11 SaaS</td>
+<td style="width: 174px;">Poky 2.1.2</td>
+<td style="width: 102px;">x86_64</td>
+</tr>
+<tr>
+<td style="width: 153px;">Wifx</td>
+<td style="width: 205px;">LORIX One</td>
+<td style="width: 198px;">3.0.1 On-premise</td>
+<td style="width: 174px;">Poky 2.1.2</td>
+<td style="width: 102px;">x86_64</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h1><br /><br /></h1>
+</body>
+
+</html>

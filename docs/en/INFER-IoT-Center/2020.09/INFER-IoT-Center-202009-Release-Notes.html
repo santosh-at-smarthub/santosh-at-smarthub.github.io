@@ -1,0 +1,111 @@
+<h1 id="smarthub-infer-iot-center-release-notes">SmartHub INFER IoT Center Release Notes</h1>
+<p>Release Date: September 21, 2020</p>
+<table>
+<thead>
+<tr class="header">
+<th>Release Name</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SaaS</td>
+<td>2020.09-100003</td>
+</tr>
+<tr class="even">
+<td>On-premise</td>
+<td>3.0.0-100003</td>
+</tr>
+<tr class="odd">
+<td>Agent</td>
+<td>3.0.0-100003</td>
+</tr>
+</tbody>
+</table>
+<p>Last Updated: <em>September 21, 2020</em></p>
+<h2 id="contents-of-the-release-notes">Contents of the Release Notes</h2>
+<ul>
+<li><a href="#about-smarthub-infer-iot-center">About SmartHub INFER IoT Center</a></li>
+<li><a href="#new-in-this-release">New in this Release</a></li>
+<li><a href="#devices-certified-for-use">Devices Certified for Use</a></li>
+<li><a href="#before-you-begin">Before You Begin</a></li>
+<li><a href="#known-issues">Known Issues</a></li>
+</ul>
+<h1 id="about-smarthub-infer-iot-center">About SmartHub INFER IoT Center</h1>
+<p>SmartHub INFER IoT Center is a secure, enterprise-grade, edge and IoT solution that provides visibility and control over all IoT use cases. It helps companies to onboard, configure, monitor, manage and secure IoT devices and infrastructure. The solution enables IT and Operational Technology (OT) to simplify device management and operationalize IoT use cases quickly by reducing the complexity of managing all the heterogeneous edge and IoT systems in one place.</p>
+<p>SmartHub INFER IoT Center includes the following features and capabilities: ## Onboard - Onboard certified gateways and connected devices securely to the Service Offering through a low-touch enrollment process - Configure gateways, connectivity to gateways, and application/containers on gateways - Setup of device properties and metrics through device template - Define metrics collection frequency and batch size</p>
+<h2 id="monitor-and-troubleshoot-iot-infrastructure">Monitor and Troubleshoot IoT Infrastructure</h2>
+<ul>
+<li>Set up alert definition and notification through email or REST API</li>
+<li>Monitor device health and detect abnormalities</li>
+<li>Troubleshoot through system log and audit log</li>
+<li>Act by sending supported commands to devices</li>
+</ul>
+<h2 id="manage-iot-infrastructure">Manage IoT Infrastructure</h2>
+<ul>
+<li>Enable policy-driven over-the-air software lifecycle management</li>
+<li>Manage the software and security patch update approval process</li>
+<li>View alerts, metrics trends, and granular status of software update execution on the dashboard</li>
+<li>Visualize the representation of the parent-child topology</li>
+<li>Manage certified heterogeneous devices and gateways with different hardware, operating systems, and communication protocols</li>
+</ul>
+<h2 id="interface">Interface</h2>
+<ul>
+<li>Role-based user access according to organizations and use cases.</li>
+</ul>
+<h1 id="new-in-this-release">New in this Release</h1>
+<ul>
+<li>Re-branded with a fresh look</li>
+<li>Powerful insights and visualization of metrics and properties</li>
+<li>Newly introduced data lake where you can bring in external data to combine with device data for rich dashboards</li>
+<li>Easily integrate your Single Sign On (SSO)
+<ul>
+<li>You can now use the SAML SSO to authenticate user access</li>
+</ul></li>
+<li>Simply provide OTA updates to new things and sub-organizations
+<ul>
+<li>Perform OTA updates on ‘Thing devices’ that are enrolled after the campaign starts.</li>
+<li>OTA Campaigns now support Organization hierarchy.</li>
+</ul></li>
+<li>Richer and more convenient Advanced Search
+<ul>
+<li>You can now search across multiple templates in Advanced Search.</li>
+<li>Organization is now visible in Advanced Search results.</li>
+</ul></li>
+<li>Automatic update of device lists for Alert Definitions
+<ul>
+<li>Periodic background evaluation of search filter criteria to automatically add or remove devices in device list based Alert Definitions.</li>
+</ul></li>
+<li>Robust Load Balancing with High Availability (HA)
+<ul>
+<li>You can now deploy Load Balancer in Active-Passive Mode to enable HA.</li>
+</ul></li>
+</ul>
+<h1 id="devices-certified-for-use">Devices Certified for Use</h1>
+<p>SmartHub’s Compatibility Guide lists the Gateways and Edge Systems that are certified for use with SmartHub INFER IoT Center:</p>
+<ul>
+<li><a href="https://content.smarthub.ai/docs/en/INFER-IoT-Center/compatibility/certified-edge-gateways.html">IoT &amp; Edge Gateways</a></li>
+<li><a href="https://content.smarthub.ai/docs/en/INFER-IoT-Center/certified-embedded-systems.html">Embedded Systems</a></li>
+</ul>
+<h1 id="before-you-begin">Before You Begin</h1>
+<p>Before you begin using SmartHub INFER IoT Center, ensure the following:</p>
+<ul>
+<li>Setup the following under <strong>Identity &amp; Access</strong>
+<ul>
+<li>Add the appropriate <strong>Organization</strong>. If you have more than one Organization, use the <em>Org Switcher</em> drop-down at the top-left of the page to change your current context.</li>
+<li>Review the pre-defined <strong>Roles</strong> and make any changes as needed</li>
+<li>Review/Edit/Create <strong>Groups</strong> with appropriate Roles to suit your needs</li>
+<li>Add <strong>Users</strong> to the system</li>
+</ul></li>
+<li>Ensure that your devices are certified for use with SmartHub INFER IoT Center</li>
+</ul>
+<p>Please refer to detailed steps provided in the <strong>User Guide</strong> available under the <em>Help</em> menu on the top right corner of the SmartHub INFER IoT Center Console.</p>
+<h1 id="known-issues">Known Issues</h1>
+<p>The following known issues will be fixed in the upcoming releases:</p>
+<ul>
+<li>The agent config file does not get updated when you delete all the proxy configurations in the template.
+<ul>
+<li>After enrolling a gateway, edit the device template with proxy settings and check the agent config file. The proxy settings are updated. When you delete all the proxy settings in the template, the agent config file does not update the changes.</li>
+<li>Add a proxy setting with an invalid proxy IP address. This will update the proxy type in the agent config file to NO_PROXY.</li>
+</ul></li>
+</ul>
