@@ -7,7 +7,7 @@ locale                   : "en-US"
 title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "SmartHub.ai"
+name                     : "by SmartHub.ai"
 description              : ""
 url                      : http://localhost:4000 # the base hostname & protocol for your site e.g. "https://example.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -111,6 +111,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Home"
+      icon: "fas fa-fw fa-home"
+      url: "https://www.smarthub.ai/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/SmartHub_AI"

@@ -197,6 +197,7 @@
 
     &.site-title {
       margin-left: 0;
+      width: 50%;
     }
   }
   
@@ -221,11 +222,16 @@
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    justify-content: center;
+    // -webkit-box-flex: 1;
+    // -ms-flex: 1;
+    // flex: 1;
     overflow: hidden;
+    font-size: 0.9em;
+
+    // @include breakpoint($large) {
+    //   margin-right: 1em;
+    // }
 
     li {
       -webkit-box-flex: 0;
