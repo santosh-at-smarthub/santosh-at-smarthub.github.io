@@ -9,20 +9,20 @@ docs:
   - title: "Releases"
     children:
       - title: "2020.09"
-        url: /docs/en/INFER-IoT-Center/2020.09/INFER-IoT-Center-202009-Release-Notes
+        url: /docs/en/INFER-IoT-Center/2020.09/
   - title: "Compatibility"
     children:
       - title: "Edge Gateways"
-        url: /docs/compatibility/edge_gateways/
+        url: /docs/en/INFER-IoT-Center/compatibility/certified-edge-gateways
       - title: "Embedded Systems"
-        url: /docs/compatibility/embedded-systems/
+        url: /docs/en/INFER-IoT-Center/compatibility/certified-embedded-systems
   - title: "Legal"
     children:
       - title: "EULA"
-        url: /docs/eula/
+        url: /docs/legal/eula
       - title: "Open Source"
-        url: /legal/open_source
+        url: /docs/legal/open_source
       - title: "Privacy Policy"
-        url: /docs/privacy-policy/
+        url: /docs/legal/privacy-policy.pdf
       - title: "Support Policies"
-        url: /docs/support-policies/
+        url: /docs/legal/support-policies

@@ -1,6 +1,6 @@
 ---
 title: "Certified Embedded Systems"
-permalink: /docs/compatibility/embedded-systems/
+permalink:  /docs/en/INFER-IoT-Center/compatibility/certified-embedded-systems
 excerpt: "IoT Embedded Systems"
 last_modified_at: September 21, 2020
 toc: false

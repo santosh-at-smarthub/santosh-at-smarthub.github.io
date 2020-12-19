@@ -1,6 +1,6 @@
 ---
 title: "Release Notes - 2020.09"
-permalink: /docs/en/INFER-IoT-Center/2020.09/INFER-IoT-Center-202009-Release-Notes
+permalink: /docs/en/INFER-IoT-Center/2020.09/INFER-IoT-Center-202009-Release-Notes.html
 excerpt: "SmartHub INFER IoT Center Release Notes"
 last_modified_at: September 21, 2020
 toc: true
@@ -11,10 +11,6 @@ toc: true
 | SaaS |  2020.09-100003|
 |On-premise|3.0.0-100003|
 |Agent|3.0.0-100003|
-
--  [API Reference Guide](/docs/en/INFER-IoT-Center/2020.09/iotc-api-guide)
--  [User Guide](/docs/en/INFER-IoT-Center/2020.09/iotc-user-guide)
--  [Sizing Guide](/docs/en/INFER-IoT-Center/2020.09/iotc-sizing-guide)
 
 ### About SmartHub INFER IoT Center
 
@@ -72,8 +68,8 @@ SmartHub INFER IoT Center includes the following features and capabilities:
 
 SmartHub’s Compatibility Guide lists the Gateways and Edge Systems that are certified for use with SmartHub INFER IoT Center:
 
--  [IoT & Edge Gateways](/docs/compatibility/edge_gateways/)
--  [Embedded Systems](/docs/compatibility/embedded-systems/)
+-  [IoT & Edge Gateways](/docs/en/INFER-IoT-Center/compatibility/certified-edge-gateways)
+-  [Embedded Systems](/docs/en/INFER-IoT-Center/compatibility/certified-embedded-systems)
 
 
 ### Before You Begin

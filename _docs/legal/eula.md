@@ -1,6 +1,6 @@
 ---
 title: "End User License Agreement"
-permalink: /docs/eula/
+permalink: /docs/legal/eula
 excerpt: "SMARTHUB END USER LICENSE AGREEMENT"
 last_modified_at: 2020-07-27
 toc: true
