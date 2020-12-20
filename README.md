@@ -1,13 +1,19 @@
 # smarthub-ai.github.io
 
-#### Local setup: 
+#### Install jekyll & dependencies: 
 
-Run following commands:
+1. https://jekyllrb.com/docs/installation
+2. `npm install`
 
-1. `npm install`
-2. `bundle exec jekyll serve`
+#### How to start: run command
+
+- `npm start`
 
 
-#### How to deploy: 
+#### How to deploy: run command
 
-Run command - `npm run deploy`
+- `npm run deploy`
+
+
+> Note - After running above command, will generate `gh-pages` branch with hosting files. 
+Dont push this branch to remote.
