@@ -2,11 +2,9 @@
   "name": "smarthub-library",
   "private": true,
   "version": "4.21.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "description": "SmartHub.ai content library",
   "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
+    "jekyll"
   ],
   "engines": {
     "node": ">= 0.10.0"
