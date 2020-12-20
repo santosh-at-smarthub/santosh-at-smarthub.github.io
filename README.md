@@ -1,9 +1,18 @@
 # smarthub-ai.github.io
 
-#### Install jekyll & dependencies: 
+#### Install jekyll & dependencies:  `ruby, bundler, jekyll`
 
-1. https://jekyllrb.com/docs/installation
-2. `npm install`
+1. For detailed install instructions, follow the guide for your operating systems.
+    - [Windows](https://jekyllrb.com/docs/installation/windows/)
+    - [macOS](https://jekyllrb.com/docs/installation/macos/)
+    - [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)
+    
+    After sucessfull installtions, You should be able to run following commmands to check their versions:
+    - `gem -v`
+    - `bundler -v`
+    - `bundle exec jekyll -v`
+
+2. In root folder run: `npm install`
 
 #### How to start: run command
 
