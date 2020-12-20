@@ -15,5 +15,5 @@
 - `npm run deploy`
 
 
-> Note - After running above command, will generate `gh-pages` branch with hosting files. 
-Dont push this branch to remote.
+> Note - After running above deploy command, will generate `gh-pages` branch with hosting files and automatically pubish site to remote.
+*Don't push this branch explicitly to remote.*
