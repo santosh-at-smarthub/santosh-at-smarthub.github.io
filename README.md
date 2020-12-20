@@ -17,6 +17,7 @@
 #### How to start: run command
 
 - `npm start`
+- Open browser with `http://localhost:4000`
 
 
 #### How to deploy: run command
