@@ -9,7 +9,7 @@ toc: false
 SmartHub INFER is an end-to-end IoT infrastructure management solution that enables both OT and IT staff in organizations to have complete visibility and control of their IoT use cases including onboarding, configuring, monitoring, managing and securing the IoT Embedded Systems and connected devices.
 
 **Read Important Support Information:**
-The SmartHub INFER Compatibility Guide shows the certification status of partner systems against releases of Pulse IoT Center for the following versions of INFER IoT Center3.x and later.
+The SmartHub INFER Compatibility Guide shows the certification status of partner systems against releases of INFER IoT Center for the following versions of INFER IoT Center3.x and later.
 {: .notice--warning}
 
 **Note:**
