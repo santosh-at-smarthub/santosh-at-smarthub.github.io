@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://content.smarthub.ai/docs/en/INFER-IoT-Center/2020.09/INFER-IoT-Center-202009-Release-Notes.html</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/en/INFER-IoT-Center/2020.09/</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/en/INFER-IoT-Center/compatibility/certified-edge-gateways</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/en/INFER-IoT-Center/compatibility/certified-embedded-systems</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/</loc>
+<lastmod>2020-12-24T05:42:37+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/legal/eula</loc>
+<lastmod>2020-07-27T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/legal/open_source</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://content.smarthub.ai/docs/legal/support-policies</loc>
+<lastmod>2020-09-21T00:00:00+00:00</lastmod>
+</url>
+</urlset>
